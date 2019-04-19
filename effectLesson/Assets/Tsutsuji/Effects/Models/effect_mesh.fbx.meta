@@ -1,0 +1,189 @@
+fileFormatVersion: 2
+guid: b2b5e9b5918bbc34a9f64bad981acb23
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: HexSphere
+    100004: HexSphere_Band
+    100006: HexSphere_BandOpen
+    100008: Icosphere
+    100010: Cone001
+    100012: Cone001_center
+    100014: Cone002
+    100016: Cone003
+    100018: Cone004
+    100020: Cube
+    100022: Cylinder
+    100024: Cylinder1m
+    100026: CylinderTwistUV1
+    100028: CylinderTwistUV2
+    100030: CylinderTwistUV3
+    100032: Hemisphere
+    100034: Hemisphere2
+    100036: RoundCylinder
+    100038: Torus_Tri
+    100040: WPlane
+    400000: //RootNode
+    400002: HexSphere
+    400004: HexSphere_Band
+    400006: HexSphere_BandOpen
+    400008: Icosphere
+    400010: Cone001
+    400012: Cone001_center
+    400014: Cone002
+    400016: Cone003
+    400018: Cone004
+    400020: Cube
+    400022: Cylinder
+    400024: Cylinder1m
+    400026: CylinderTwistUV1
+    400028: CylinderTwistUV2
+    400030: CylinderTwistUV3
+    400032: Hemisphere
+    400034: Hemisphere2
+    400036: RoundCylinder
+    400038: Torus_Tri
+    400040: WPlane
+    2100000: No Name
+    2100002: Material
+    2300000: HexSphere
+    2300002: HexSphere_Band
+    2300004: HexSphere_BandOpen
+    2300006: Icosphere
+    2300008: Cone001
+    2300010: Cone001_center
+    2300012: Cone002
+    2300014: Cone003
+    2300016: Cone004
+    2300018: Cube
+    2300020: Cylinder
+    2300022: Cylinder1m
+    2300024: CylinderTwistUV1
+    2300026: CylinderTwistUV2
+    2300028: CylinderTwistUV3
+    2300030: Hemisphere
+    2300032: Hemisphere2
+    2300034: RoundCylinder
+    2300036: Torus_Tri
+    2300038: WPlane
+    3300000: HexSphere
+    3300002: HexSphere_Band
+    3300004: HexSphere_BandOpen
+    3300006: Icosphere
+    3300008: Cone001
+    3300010: Cone001_center
+    3300012: Cone002
+    3300014: Cone003
+    3300016: Cone004
+    3300018: Cube
+    3300020: Cylinder
+    3300022: Cylinder1m
+    3300024: CylinderTwistUV1
+    3300026: CylinderTwistUV2
+    3300028: CylinderTwistUV3
+    3300030: Hemisphere
+    3300032: Hemisphere2
+    3300034: RoundCylinder
+    3300036: Torus_Tri
+    3300038: WPlane
+    4300000: Icosphere
+    4300002: HexSphere_BandOpen
+    4300004: HexSphere_Band
+    4300006: HexSphere
+    4300008: Cone004
+    4300010: Cone003
+    4300012: Hemisphere2
+    4300014: CylinderTwistUV3
+    4300016: CylinderTwistUV2
+    4300018: CylinderTwistUV1
+    4300020: Torus_Tri
+    4300022: Cube
+    4300024: Cylinder1m
+    4300026: RoundCylinder
+    4300028: WPlane
+    4300030: Cone001_center
+    4300032: Hemisphere
+    4300034: Cone002
+    4300036: Cone001
+    4300038: Cylinder
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
