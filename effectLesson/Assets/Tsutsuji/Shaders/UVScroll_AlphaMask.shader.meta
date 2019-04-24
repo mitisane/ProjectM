@@ -3,8 +3,6 @@ guid: 96c5d3d87b1d0374b822c64d6013f331
 ShaderImporter:
   externalObjects: {}
   defaultTextures:
-  - _MainTex: {fileID: 2800000, guid: b33d68e8275874d4ea316190b470b988, type: 3}
-  - _NoiseMask: {fileID: 2800000, guid: dbaedf2ceb0e4ad4285e7424b74fd8c3, type: 3}
   - _Mask: {fileID: 2800000, guid: 4c601a57cd3eecf44bdfe62b569fbc92, type: 3}
   userData: 
   assetBundleName: 
