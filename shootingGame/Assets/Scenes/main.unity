@@ -207,7 +207,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mapchip:
   - {fileID: 1638680613681206, guid: 7d4cec0af5643c74d99efe9eca61fbb2, type: 2}
-  - {fileID: 0}
+  - {fileID: 1654650774749688, guid: 8505ce9058a03564686c422a90f80409, type: 2}
+  attackArea: {fileID: 1078021697453034, guid: 4de81e609b866404ca5e06d8dd52f138, type: 2}
 --- !u!4 &319653790
 Transform:
   m_ObjectHideFlags: 0
@@ -266,6 +267,11 @@ Prefab:
       value: 
       objectReference: {fileID: 1078021697453034, guid: 4de81e609b866404ca5e06d8dd52f138,
         type: 2}
+    - target: {fileID: 114102044595239978, guid: 0d55ffc9f51aeb14b9fb39853739c74a,
+        type: 2}
+      propertyPath: StageGenereter
+      value: 
+      objectReference: {fileID: 319653788}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 0d55ffc9f51aeb14b9fb39853739c74a, type: 2}
   m_IsPrefabParent: 0
@@ -458,6 +464,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c286c99009e76214b919139d6de45787, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  hitPoint: 100
+  EmAtk: 10
+  BossAtk: 20
 --- !u!114 &1458574444
 MonoBehaviour:
   m_ObjectHideFlags: 0

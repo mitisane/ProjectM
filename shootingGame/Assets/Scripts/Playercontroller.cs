@@ -7,8 +7,12 @@ public class Playercontroller : MonoBehaviour {
     int movecntY = 0;
     int movecntX = 0;
 
-    [Header("HP")]
-    public static int hp = 5;
+    public int hitPoint = 100;
+
+    public int EmAtk = 10;
+
+    public int BossAtk = 20;
+
 
     // Use this for initialization
     void Start ()
@@ -43,4 +47,31 @@ public class Playercontroller : MonoBehaviour {
             }
         }
     }
+    //プレイヤーとの当たり判定・弾との当たり判定
+    private void OnCollisionEnter(Collision collision)
+    {
+        if (collision.gameObject.tag == "Enemy")
+        {
+            hitPoint -= EmAtk;
+            Debug.Log(hitPoint);
+            Destroy(collision.gameObject);
+            if (0 >= hitPoint)
+            {
+                Destroy(gameObject);
+            }
+        }
+    }
+    private void OnTriggerEnter(Collider collision)
+    {
+        if(collision.gameObject.tag == "Ground")
+        {
+            hitPoint -= BossAtk;
+            Debug.Log(hitPoint);
+            if (0 >= hitPoint)
+            {
+                Destroy(gameObject);
+            }
+        }
+    }
+
 }

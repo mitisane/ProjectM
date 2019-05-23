@@ -9,9 +9,9 @@ public class EnemyController : MonoBehaviour
     public float movespeed = 0.07f;
 
     [Header("当たった回数")]
-    public int hitcnt = 2;
+    public int Emhp = 20;
 
-    int cnt = 0;
+    int Damage = 10;
 
     // Use this for initialization
     void Start()
@@ -34,17 +34,12 @@ public class EnemyController : MonoBehaviour
     {
         if (collision.gameObject.tag == "Bullet")
         {
-            cnt++;
+            Emhp -= Damage;
             Destroy(collision.gameObject);
-            if (cnt >= hitcnt)
+            if (Emhp<=0)
             {
                 Destroy(gameObject);
             }
-        }
-        if (collision.gameObject.tag == "Player")
-        {
-            Destroy(gameObject);
-            Destroy(collision.gameObject);
         }
     }
 }
