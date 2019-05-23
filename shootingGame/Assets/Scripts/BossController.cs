@@ -20,6 +20,7 @@ public class BossController : MonoBehaviour {
 	}
     private IEnumerator BossMove()
     {
+        yield return new WaitForSeconds(5.0f);
         do
         {
             BossAttack();
@@ -28,10 +29,9 @@ public class BossController : MonoBehaviour {
     }
     void BossAttack()
     {
-        Debug.Log("a");
         GameObject enemy = Instantiate(attackArea) as GameObject;
-        float x = Random.Range(3, -3);
-        enemy.transform.position = new Vector3(x, 0, 5);
+        float x = Random.Range(0, 7);
+        enemy.transform.position = new Vector3(x, 0.2f, 11);
         Destroy(enemy,2.0f);
     }
 }

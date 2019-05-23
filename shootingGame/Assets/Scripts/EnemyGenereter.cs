@@ -8,7 +8,7 @@ public class EnemyGenereter : MonoBehaviour {
     [Header("敵prefab")]
     public GameObject EnemyPre;
     [Header("生成速度")]
-    public float span = 1.0f;
+    public float span = 0.2f;
 
 	// Use this for initialization
 	void Start () {
@@ -30,8 +30,8 @@ public class EnemyGenereter : MonoBehaviour {
     void Generate()
     {
         GameObject enemy = Instantiate(EnemyPre) as GameObject;
-        float x = Random.Range(3, -3);
-        enemy.transform.position = new Vector3(x, 0, 14);
+        float x = Random.Range(0, 7);
+        enemy.transform.position = new Vector3(x, 1, 20);
     }
 
 }
