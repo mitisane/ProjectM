@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class BossController : MonoBehaviour {
 
-    public int Bosshp = 1000;
+    private int bossHP = 1000;
 
     int Damage = 10;
 
@@ -19,7 +19,7 @@ public class BossController : MonoBehaviour {
 	// Update is called once per frame
 	void Update ()
     {
-		
+		Debug.Log(bossHP);
 	}
     private IEnumerator BossMove()
     {
@@ -35,13 +35,12 @@ public class BossController : MonoBehaviour {
     {
         if (collision.gameObject.tag == "Bullet")
         {
-            Bosshp -= Damage;
-            Debug.Log(Bosshp);
             Destroy(collision.gameObject);
-            if (0 >= Bosshp)
-            {
-                Destroy(gameObject);
-            }
         }
+    }
+    public int SetBossHP(int Damage)
+    {
+        bossHP -= Damage;
+        return bossHP;
     }
 }
