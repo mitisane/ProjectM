@@ -1,6 +1,8 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class Playercontroller : MonoBehaviour {
 
@@ -13,17 +15,23 @@ public class Playercontroller : MonoBehaviour {
 
     public int BossAtk = 20;
 
+    public Slider Playerslider;
 
     // Use this for initialization
     void Start ()
     {
+        Playerslider.maxValue = hitPoint;
     }
 	
 	// Update is called once per frame
 	void Update ()
     {
         Move();
-	}
+        if (hitPoint <= 0)
+        {
+            SceneManager.LoadScene("gameover");
+        }
+    }
 
     void Move()
     {
@@ -53,12 +61,9 @@ public class Playercontroller : MonoBehaviour {
         if (collision.gameObject.tag == "Enemy")
         {
             hitPoint -= EmAtk;
+            Playerslider.value = hitPoint;
             Debug.Log(hitPoint);
             Destroy(collision.gameObject);
-            if (0 >= hitPoint)
-            {
-                Destroy(gameObject);
-            }
         }
     }
     private void OnTriggerEnter(Collider collision)
@@ -67,10 +72,6 @@ public class Playercontroller : MonoBehaviour {
         {
             hitPoint -= BossAtk;
             Debug.Log(hitPoint);
-            if (0 >= hitPoint)
-            {
-                Destroy(gameObject);
-            }
         }
     }
 

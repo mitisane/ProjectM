@@ -7,7 +7,7 @@ public class EnemyController : MonoBehaviour
 {
 
     [Header("HPバー")]
-    public Slider slider;
+    public Slider Emslider;
 
     [Header("移動速度")]
     public float movespeed = 0.07f;
@@ -17,13 +17,11 @@ public class EnemyController : MonoBehaviour
 
     int Damage = 10;
 
-    public GameObject Boss;
-
     int bossHP;
     // Use this for initialization
     void Start()
     {
-        slider.maxValue = Emhp;
+        Emslider.maxValue = Emhp;
     }
 
     // Update is called once per frame
@@ -42,17 +40,14 @@ public class EnemyController : MonoBehaviour
         if (collision.gameObject.tag == "Bullet")
         {
             Emhp -= Damage;
-            slider.value = Emhp;
+            Emslider.value = Emhp;
             Destroy(collision.gameObject);
             if (Emhp<=0)
-            {     
-                Destroy(gameObject);
-            }
-            bossHP = GameObject.Find("Boss").GetComponent<BossController>().SetBossHP(Damage);
-            if (bossHP<=0)
             {
+                bossHP = GameObject.Find("Boss").GetComponent<BossController>().SetBossHP(Damage);
                 Destroy(gameObject);
             }
+            
         }
     }
 }

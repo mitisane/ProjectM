@@ -293,10 +293,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d6a8dc951df61314997349816f6bc0ba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  slider: {fileID: 114306513978486474}
+  Emslider: {fileID: 114306513978486474}
   movespeed: 0.07
   Emhp: 20
-  Boss: {fileID: 1910907866957266, guid: 0d55ffc9f51aeb14b9fb39853739c74a, type: 2}
 --- !u!114 &114306513978486474
 MonoBehaviour:
   m_ObjectHideFlags: 1
