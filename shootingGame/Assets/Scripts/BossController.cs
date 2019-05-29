@@ -1,18 +1,21 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class BossController : MonoBehaviour {
 
-    private int bossHP = 1000;
+    private int bossHP = 100;
 
-    int Damage = 10;
+    int damage = 5;
 
-    public GameObject GroundGenereter;
+    public Slider bossslider;
 
     // Use this for initialization
     void Start()
     {
+        bossslider.maxValue = bossHP;
         StartCoroutine("BossMove");
     }
 	
@@ -20,6 +23,11 @@ public class BossController : MonoBehaviour {
 	void Update ()
     {
 		Debug.Log(bossHP);
+        if (bossHP <= 0)
+        {
+            Destroy(gameObject);
+            SceneManager.LoadScene("clear");
+        }
 	}
     private IEnumerator BossMove()
     {
@@ -41,6 +49,7 @@ public class BossController : MonoBehaviour {
     public int SetBossHP(int Damage)
     {
         bossHP -= Damage;
+        bossslider.value = bossHP;
         return bossHP;
     }
 }
