@@ -6,8 +6,8 @@ Material:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: Shaderpra
-  m_Shader: {fileID: 4800000, guid: bd63aba6c7abb574c8f50d1b692b66ff, type: 3}
+  m_Name: Orb1
+  m_Shader: {fileID: 203, guid: 0000000000000000f000000000000000, type: 0}
   m_ShaderKeywords: 
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
@@ -18,12 +18,11 @@ Material:
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
-    - _node_45:
-        m_Texture: {fileID: 2800000, guid: 28c7aad1372ff114b90d330f8a2dd938, type: 3}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 7b3658aa879e1e94b9ff89420f60c490, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
-    - _node_6360: 0.1025641
-    - _node_6855: 1
+    - _InvFade: 1
     m_Colors:
-    - _node_2926: {r: 1, g: 0, b: 0, a: 1}
+    - _TintColor: {r: 0.5, g: 0.5, b: 0.5, a: 0.5}
