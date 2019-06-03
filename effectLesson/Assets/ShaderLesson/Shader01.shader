@@ -55,8 +55,8 @@ Shader "Shader Forge/Shader01" {
             float4 frag(VertexOutput i) : COLOR {
 ////// Lighting:
 ////// Emissive:
-                float4 node_3035 = _Time;
-                float2 node_8476 = (i.uv0+node_3035.g*float2(0,5));
+                float4 node_5952 = _Time;
+                float2 node_8476 = (i.uv0+node_5952.g*float2(0,5));
                 float4 _node_45_var = tex2D(_node_45,TRANSFORM_TEX(node_8476, _node_45));
                 float3 emissive = (((1.0 - _node_45_var.rgb)+_node_6360)*_node_2926.rgb);
                 float3 finalColor = emissive;
