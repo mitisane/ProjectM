@@ -10724,7 +10724,7 @@ ParticleSystem:
     startSize:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 4
+      scalar: 10
       minScalar: 1
       maxCurve:
         serializedVersion: 2
@@ -11132,7 +11132,7 @@ ParticleSystem:
     rateOverTime:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 10
+      scalar: 5
       minScalar: 10
       maxCurve:
         serializedVersion: 2
@@ -13933,7 +13933,7 @@ ParticleSystem:
   moveWithTransform: 0
   moveWithCustomTransform: {fileID: 0}
   scalingMode: 1
-  randomSeed: -1217682883
+  randomSeed: 2141960017
   InitialModule:
     serializedVersion: 3
     enabled: 1
@@ -14208,8 +14208,8 @@ ParticleSystem:
     startRotationX:
       serializedVersion: 2
       minMaxState: 3
-      scalar: 0.08552113
-      minScalar: -2.146755
+      scalar: 1.0471976
+      minScalar: -2.0943952
       maxCurve:
         serializedVersion: 2
         m_Curve:
@@ -14249,8 +14249,8 @@ ParticleSystem:
     startRotationY:
       serializedVersion: 2
       minMaxState: 3
-      scalar: 1.7627826
-      minScalar: -1.5987215
+      scalar: 0.5235988
+      minScalar: -0.2617994
       maxCurve:
         serializedVersion: 2
         m_Curve:
@@ -14579,7 +14579,7 @@ ParticleSystem:
       countCurve:
         serializedVersion: 2
         minMaxState: 0
-        scalar: 4
+        scalar: 6
         minScalar: 0
         maxCurve:
           serializedVersion: 2
@@ -14646,6 +14646,12 @@ ParticleSystem:
           value: 1
           inSlope: -0.08264788
           outSlope: -0.08264788
+          tangentMode: 0
+        - serializedVersion: 2
+          time: 1
+          value: 1
+          inSlope: 0
+          outSlope: 0
           tangentMode: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
@@ -20898,7 +20904,7 @@ ParticleSystem:
   moveWithTransform: 0
   moveWithCustomTransform: {fileID: 0}
   scalingMode: 1
-  randomSeed: -1287813513
+  randomSeed: -1176443572
   InitialModule:
     serializedVersion: 3
     enabled: 1
