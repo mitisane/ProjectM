@@ -256,7 +256,7 @@ ParticleSystem:
   moveWithTransform: 0
   moveWithCustomTransform: {fileID: 0}
   scalingMode: 0
-  randomSeed: 1526157255
+  randomSeed: -305774441
   InitialModule:
     serializedVersion: 3
     enabled: 1
@@ -698,7 +698,7 @@ ParticleSystem:
         m_RotationOrder: 4
   ShapeModule:
     serializedVersion: 5
-    enabled: 1
+    enabled: 0
     type: 4
     angle: 25
     length: 5
@@ -3752,7 +3752,7 @@ ParticleSystem:
   moveWithTransform: 0
   moveWithCustomTransform: {fileID: 0}
   scalingMode: 0
-  randomSeed: -1098998309
+  randomSeed: -1331054234
   InitialModule:
     serializedVersion: 3
     enabled: 1
@@ -7248,7 +7248,7 @@ ParticleSystem:
   moveWithTransform: 0
   moveWithCustomTransform: {fileID: 0}
   scalingMode: 0
-  randomSeed: 1230917511
+  randomSeed: 1750815760
   InitialModule:
     serializedVersion: 3
     enabled: 1
@@ -10744,7 +10744,7 @@ ParticleSystem:
   moveWithTransform: 0
   moveWithCustomTransform: {fileID: 0}
   scalingMode: 0
-  randomSeed: 59021929
+  randomSeed: -1782272697
   InitialModule:
     serializedVersion: 3
     enabled: 1
@@ -14240,7 +14240,7 @@ ParticleSystem:
   moveWithTransform: 0
   moveWithCustomTransform: {fileID: 0}
   scalingMode: 0
-  randomSeed: 647726607
+  randomSeed: -300678698
   InitialModule:
     serializedVersion: 3
     enabled: 1
@@ -17736,7 +17736,7 @@ ParticleSystem:
   moveWithTransform: 0
   moveWithCustomTransform: {fileID: 0}
   scalingMode: 1
-  randomSeed: 1374591639
+  randomSeed: -1321643447
   InitialModule:
     serializedVersion: 3
     enabled: 1
@@ -21269,7 +21269,7 @@ ParticleSystemRenderer:
   m_ReflectionProbeUsage: 0
   m_Materials:
   - {fileID: 2100000, guid: 8ec0f73d01ac7a841b5c84a086056460, type: 2}
-  - {fileID: 2100000, guid: e54c37111692ac64b80ca59fb8a98842, type: 2}
+  - {fileID: 0}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -21323,7 +21323,7 @@ ParticleSystemRenderer:
   m_ReflectionProbeUsage: 0
   m_Materials:
   - {fileID: 2100000, guid: 1ac3ba28035d7fc4e9a1606b88836d69, type: 2}
-  - {fileID: 2100000, guid: e54c37111692ac64b80ca59fb8a98842, type: 2}
+  - {fileID: 0}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
