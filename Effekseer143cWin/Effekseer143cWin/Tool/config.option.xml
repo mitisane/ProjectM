@@ -1,2 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<EffekseerProject />
+<EffekseerProject>
+  <Option>
+    <BackgroundImage>C:\Users\mitis\Downloads\13_01_Sample\13_01_Sample\Texture\Background.png</BackgroundImage>
+  </Option>
+</EffekseerProject>
