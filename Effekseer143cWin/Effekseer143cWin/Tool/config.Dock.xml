@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Root>
-  <WindowWidth>958</WindowWidth>
-  <WindowHeight>1008</WindowHeight>
+  <WindowWidth>1280</WindowWidth>
+  <WindowHeight>720</WindowHeight>
   <Docks>
     <Effekseer.GUI.Dock.ViewerController>Open</Effekseer.GUI.Dock.ViewerController>
     <Effekseer.GUI.Dock.NodeTreeView>Open</Effekseer.GUI.Dock.NodeTreeView>
