@@ -4,10 +4,11 @@
 Material:
   serializedVersion: 6
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_Name: Dissolve
-  m_Shader: {fileID: 4800000, guid: 0f5b71e4fc06dfc4e99778b12d57f603, type: 3}
+  m_Shader: {fileID: 4800000, guid: e39e08736e2162f42bdb06684f946979, type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
@@ -23,7 +24,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _ScrollFadeOut:
-        m_Texture: {fileID: 2800000, guid: 5593ca625568e594e975c583e96362ed, type: 3}
+        m_Texture: {fileID: 2800000, guid: 0e40d85459f108c48baced2ec3962ba4, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
