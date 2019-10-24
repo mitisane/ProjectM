@@ -7,8 +7,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: flare01
-  m_Shader: {fileID: 10720, guid: 0000000000000000f000000000000000, type: 0}
+  m_Name: Shader Forge_Shader01
+  m_Shader: {fileID: 4800000, guid: bd63aba6c7abb574c8f50d1b692b66ff, type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
@@ -19,9 +19,12 @@ Material:
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
-    - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 0a0e37e03881b4449a07a667124223fd, type: 3}
+    - _node_45:
+        m_Texture: {fileID: 2800000, guid: 0cf38919625368941a973be6372b5024, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-    m_Floats: []
-    m_Colors: []
+    m_Floats:
+    - _node_6360: 0
+    - _node_6855: 0.93
+    m_Colors:
+    - _node_2926: {r: 1, g: 0, b: 0, a: 1}
