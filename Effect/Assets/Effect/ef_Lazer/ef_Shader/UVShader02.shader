@@ -10,10 +10,7 @@
 		SubShader
 		{
 		Tags { "Queue" = "Transparent""RenderType" = "Transparent" }
-			Pass
-			{
-			Name "FORWARD"
-		Tags{"LightMode" = "ForwardBase"}
+
 			Blend One One
 			Zwrite Off
 

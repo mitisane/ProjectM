@@ -29,8 +29,8 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Floats:
     - _Brightness: 1
-    - _NoiseAmount: 0.0933
-    - _Speed: 3.73
+    - _NoiseAmount: 0.1
+    - _Speed: 5
     - _XRange: 4.34
     - _YRange: 0
     m_Colors:
