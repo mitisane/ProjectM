@@ -55,7 +55,7 @@
 				float3 emissive = (_MainTex_var.rgb * i.color.rgb * _Color.rgb*3.0);
 				float3 finalColor = emissive;
 				fixed4 finalRGBA = fixed4(finalColor, 1);
-				return _MainTex_var;
+				return finalRGBA;
 			}
 			ENDCG
 		}

@@ -4,8 +4,8 @@
 	{
 	_MainTex("MainTex", 2D) = "white" {}
 	_TintColor("Color", Color) = (0.5,0.5,0.5,1)
-	_XRange("X",Range(-1,1))=0
-	_YRange("Y",Range(-1,1))=0
+	_XRange("X",Range(-5,5))=0
+	_YRange("Y",Range(-5,5))=0
 
 	}
 	SubShader
