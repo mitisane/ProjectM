@@ -26,6 +26,6 @@ Material:
     m_Floats:
     - _GrayScale: 0
     - _XRange: 2.4
-    - _YRange: 0
+    - _YRange: 0.1
     m_Colors:
     - _TintColor: {r: 1, g: 1, b: 1, a: 1}
