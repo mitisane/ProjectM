@@ -1,4 +1,6 @@
-﻿
+﻿// Upgrade NOTE: replaced 'mul(UNITY_MATRIX_MVP,*)' with 'UnityObjectToClipPos(*)'
+
+
 //SubShaderを二個
 //Shader "Custom/Test1" {
 //
@@ -121,7 +123,7 @@ Shader "Custom/Test1" {
 	};
 
 	float4 vert(appdata data) : POSITION{
-		return mul(UNITY_MATRIX_MVP, data.pos);
+		return UnityObjectToClipPos(data.pos);
 	}
 
 		float4 frag() : COLOR{
