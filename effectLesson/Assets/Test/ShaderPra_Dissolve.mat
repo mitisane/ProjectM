@@ -20,13 +20,13 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 4fea4d4536dce0e4d8cf46613b782022, type: 3}
+        m_Texture: {fileID: 2800000, guid: f149539b48b2b634ebe9b39bef07be2a, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _ScrollFadeOut:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 2800000, guid: 966b2911a7eabb246aa5eb7325952ae7, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
-    - _FireAlpha: 10
+    - _FireAlpha: 3.45
     m_Colors: []
