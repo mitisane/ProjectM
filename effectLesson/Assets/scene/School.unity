@@ -4936,7 +4936,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &170385202
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -33534,7 +33534,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!199 &468502603
 ParticleSystemRenderer:
   serializedVersion: 6
@@ -71819,7 +71819,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &725005035
 Transform:
   m_ObjectHideFlags: 0
@@ -86355,6 +86355,63 @@ Transform:
   m_Father: {fileID: 1151772613}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &1123284326
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1710263172263062, guid: add4d4cbf33cde749a21acba8dd53376, type: 3}
+      propertyPath: m_Name
+      value: ef_ShockAure
+      objectReference: {fileID: 0}
+    - target: {fileID: 4572676205352626, guid: add4d4cbf33cde749a21acba8dd53376, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4572676205352626, guid: add4d4cbf33cde749a21acba8dd53376, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4572676205352626, guid: add4d4cbf33cde749a21acba8dd53376, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4572676205352626, guid: add4d4cbf33cde749a21acba8dd53376, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4572676205352626, guid: add4d4cbf33cde749a21acba8dd53376, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4572676205352626, guid: add4d4cbf33cde749a21acba8dd53376, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4572676205352626, guid: add4d4cbf33cde749a21acba8dd53376, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4572676205352626, guid: add4d4cbf33cde749a21acba8dd53376, type: 3}
+      propertyPath: m_RootOrder
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 4572676205352626, guid: add4d4cbf33cde749a21acba8dd53376, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4572676205352626, guid: add4d4cbf33cde749a21acba8dd53376, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4572676205352626, guid: add4d4cbf33cde749a21acba8dd53376, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: add4d4cbf33cde749a21acba8dd53376, type: 3}
 --- !u!1 &1151772610
 GameObject:
   m_ObjectHideFlags: 0
@@ -91235,7 +91292,7 @@ ParticleSystem:
     startLifetime:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 0.3
+      scalar: 0.1
       minScalar: 5
       maxCurve:
         serializedVersion: 2
@@ -129321,7 +129378,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1931481256
 Transform:
   m_ObjectHideFlags: 0
@@ -129356,8 +129413,8 @@ ParticleSystemRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
+  - {fileID: 2100000, guid: 3ad9339694db3b6408305b419a502b8f, type: 2}
   - {fileID: 2100000, guid: d12e757464b750f448685e6cbee4051f, type: 2}
-  - {fileID: 2100000, guid: 7ed30d6e8161dbf43a5a79c4b4a8ce94, type: 2}
   - {fileID: 2100000, guid: 7ed30d6e8161dbf43a5a79c4b4a8ce94, type: 2}
   - {fileID: 2100000, guid: 7ed30d6e8161dbf43a5a79c4b4a8ce94, type: 2}
   - {fileID: 2100000, guid: 7ed30d6e8161dbf43a5a79c4b4a8ce94, type: 2}
@@ -129815,7 +129872,7 @@ ParticleSystem:
     startRotationX:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 1.2217305
+      scalar: 1.5707963
       minScalar: 1.2217305
       maxCurve:
         serializedVersion: 2
@@ -129868,7 +129925,7 @@ ParticleSystem:
     startRotationY:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 0
+      scalar: 1.5707963
       minScalar: 0
       maxCurve:
         serializedVersion: 2
@@ -130682,7 +130739,7 @@ ParticleSystem:
     curve:
       serializedVersion: 2
       minMaxState: 1
-      scalar: 34.906586
+      scalar: 17.453293
       minScalar: 0
       maxCurve:
         serializedVersion: 2
@@ -138895,6 +138952,75 @@ ParticleSystemRenderer:
   m_Mesh2: {fileID: 0}
   m_Mesh3: {fileID: 0}
   m_MaskInteraction: 0
+--- !u!1001 &1545968914694056769
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 7816145209701491523, guid: 109387995c6dce24385adc0b0c1863cd,
+        type: 3}
+      propertyPath: m_Name
+      value: ef_LightAure_02
+      objectReference: {fileID: 0}
+    - target: {fileID: 7814412369212353317, guid: 109387995c6dce24385adc0b0c1863cd,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 4.21
+      objectReference: {fileID: 0}
+    - target: {fileID: 7814412369212353317, guid: 109387995c6dce24385adc0b0c1863cd,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7814412369212353317, guid: 109387995c6dce24385adc0b0c1863cd,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.31
+      objectReference: {fileID: 0}
+    - target: {fileID: 7814412369212353317, guid: 109387995c6dce24385adc0b0c1863cd,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7814412369212353317, guid: 109387995c6dce24385adc0b0c1863cd,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7814412369212353317, guid: 109387995c6dce24385adc0b0c1863cd,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7814412369212353317, guid: 109387995c6dce24385adc0b0c1863cd,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7814412369212353317, guid: 109387995c6dce24385adc0b0c1863cd,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 7814412369212353317, guid: 109387995c6dce24385adc0b0c1863cd,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7814412369212353317, guid: 109387995c6dce24385adc0b0c1863cd,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7814412369212353317, guid: 109387995c6dce24385adc0b0c1863cd,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 109387995c6dce24385adc0b0c1863cd, type: 3}
 --- !u!4 &4470451230004352201
 Transform:
   m_ObjectHideFlags: 0
