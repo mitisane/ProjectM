@@ -236,7 +236,7 @@ ParticleSystem:
   prewarm: 0
   playOnAwake: 1
   useUnscaledTime: 0
-  autoRandomSeed: 1
+  autoRandomSeed: 0
   useRigidbodyForVelocity: 1
   startDelay:
     serializedVersion: 2
@@ -294,7 +294,7 @@ ParticleSystem:
   moveWithTransform: 0
   moveWithCustomTransform: {fileID: 0}
   scalingMode: 1
-  randomSeed: 0
+  randomSeed: 3297
   InitialModule:
     serializedVersion: 3
     enabled: 1
@@ -9886,7 +9886,7 @@ ParticleSystem:
   prewarm: 0
   playOnAwake: 1
   useUnscaledTime: 0
-  autoRandomSeed: 1
+  autoRandomSeed: 0
   useRigidbodyForVelocity: 1
   startDelay:
     serializedVersion: 2
@@ -9944,7 +9944,7 @@ ParticleSystem:
   moveWithTransform: 0
   moveWithCustomTransform: {fileID: 0}
   scalingMode: 1
-  randomSeed: 0
+  randomSeed: 3296
   InitialModule:
     serializedVersion: 3
     enabled: 1
@@ -19549,7 +19549,7 @@ ParticleSystem:
   prewarm: 0
   playOnAwake: 1
   useUnscaledTime: 0
-  autoRandomSeed: 1
+  autoRandomSeed: 0
   useRigidbodyForVelocity: 1
   startDelay:
     serializedVersion: 2
@@ -19607,7 +19607,7 @@ ParticleSystem:
   moveWithTransform: 0
   moveWithCustomTransform: {fileID: 0}
   scalingMode: 1
-  randomSeed: 0
+  randomSeed: 3298
   InitialModule:
     serializedVersion: 3
     enabled: 1
@@ -81622,6 +81622,8 @@ PlayableDirector:
     value: {fileID: 0}
   - key: {fileID: 114619582666616090, guid: e1bd8b2b29b619a4890a84cc3c7e6488, type: 2}
     value: {fileID: 0}
+  - key: {fileID: 114006352278968566, guid: e1bd8b2b29b619a4890a84cc3c7e6488, type: 2}
+    value: {fileID: 0}
   m_ExposedReferences:
     m_References:
     - d68066e3df26ca24daa47af5b8f82203: {fileID: 3278569724886205396}
@@ -81641,6 +81643,7 @@ PlayableDirector:
     - 93917b46e53fe4f448c536acf82c1369: {fileID: 339358727583813705}
     - 29b28230354af3c4783198bf1161a16e: {fileID: 0}
     - 0ab6e110450ac3340bacacafece84c12: {fileID: 3278569724886205396}
+    - 8b94f7d42814d064a93777f47860823b: {fileID: 110997314}
     - 178e83ba20db2c84bbd5ef9528a5ac3f: {fileID: 110997314}
     - a97d88f772d4438488fd1a6f0462fead: {fileID: 589843090}
     - 7d4bb4ea04c92a4418bec7b3d09412dc: {fileID: 3278569724886205396}
@@ -81649,6 +81652,7 @@ PlayableDirector:
     - 59763831df1c4d1478cf1175e5a3c0e3: {fileID: 339358727158061220}
     - 15b92342f7facaf41ab673c8f89bfaae: {fileID: 110997314}
     - d968f44fb59c2ef4c8cd04f32ba8ee1d: {fileID: 3278569724886205396}
+    - f56ee03f629c66148a737c4d77ccea26: {fileID: 674222270}
     - 102c7a120587fad48bbffe951ae62423: {fileID: 57486612463693839}
     - 5ee8e7071a28757428c6f5adb61768d5: {fileID: 674222270}
     - 19a651e30aedde64d93709e8af5289f3: {fileID: 0}
