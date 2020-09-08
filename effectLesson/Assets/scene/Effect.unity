@@ -48240,6 +48240,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 7540344328503441723, guid: 6e4f163a634f448498469c72d1ef1653,
+        type: 3}
+      propertyPath: m_Name
+      value: Lazer_Particle annihilation
+      objectReference: {fileID: 0}
     - target: {fileID: 7540344326978211196, guid: 6e4f163a634f448498469c72d1ef1653,
         type: 3}
       propertyPath: InitialModule.rotation3D
@@ -48279,11 +48284,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Materials.Array.data[1]
       value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 7540344328503441723, guid: 6e4f163a634f448498469c72d1ef1653,
-        type: 3}
-      propertyPath: m_Name
-      value: Lazer_Particle annihilation
       objectReference: {fileID: 0}
     - target: {fileID: 7540344328503441724, guid: 6e4f163a634f448498469c72d1ef1653,
         type: 3}
